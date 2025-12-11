@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8" />
+	<title>Audio Visualizer</title>
+	<style>
+		html, body {
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background: #000;
+			color: #fff;
+			font-family: sans-serif;
+		}
+		#info {
+			position: absolute;
+			top: 10px;
+			left: 10px;
+			z-index: 10;
+			background: rgba(0,0,0,0.4);
+			padding: 8px 12px;
+			border-radius: 4px;
+			font-size: 13px;
+		}
+		canvas {
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	
+	<!-- Three.js depuis un CDN -->
+	<script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+
+	<script src="main.js"></script>
+</body>
+</html>
